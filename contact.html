@@ -135,13 +135,13 @@
         </section>
 
         <!-- Contact Form and discription-->
-        <section class="as_contact_wrapper as_padderBottom40 as_padderTop50">
+        <section class="as_contact_wrapper as_padderBottom40 as_padderTop40">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h1 class="as_heading as_heading_center">get in touch with us!</h1>
                         <img src="assets/images/pageheaderImage.png">
-                        <p class="as_font14 as_padderTop20 as_padderBottom50"> </p>
+                        <p class="as_font14 as_padderTop20 as_padderBottom10"> </p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="as_contact_detail">
@@ -162,7 +162,7 @@
                                     <span class="as_icon">
                                         <img src="assets/images/svg/message.svg" alt="">
                                     </span>
-                                    <span><a href="javascript:;">vedickatalyst@gmail.com</a></span>
+                                    <span><a href="mailto:vedickatalyst@gmail.com">vedickatalyst@gmail.com</a></span>
                                 </li>
                             </ul>
                             <div class="as_map">
@@ -174,21 +174,19 @@
                     <div class="col-lg-6 col-md-6">
                         <form class="as_appointment_form">
                             <div class="form-group">
-                                <input type="text" name="" value="" placeholder="Name" class="form-control">
+                                <input type="text" name="name" value="" placeholder="Name" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <input type="text" name="" value="" placeholder="Last Name" class="form-control">
+                                <input type="email" name="email" value="" placeholder="Email Address" class="form-control" required>
                             </div>
-                            <div class="form-group">
-                                <input type="text" name="" value="" placeholder="Email Address" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" placeholder="Subject" class="form-control">
-                            </div>
+                            <!-- <div class="form-group">
+                                <input type="text" name="subject" placeholder="Subject" class="form-control">
+                            </div> -->
                             <div class="form-group as_padderBottom10">
-                                <textarea name="" class="form-control" placeholder="Message" id=""></textarea>
+                                <textarea name="message" class="form-control" placeholder="Message" id="" required></textarea>
                             </div>
-                            <button class="as_btn">Send Message</button>
+                            <!-- <button class="as_btn">Send Message</button> -->
+                            <input type="submit" class="as_btn" name="submit" value="Send Message">
                         </form>
                     </div>
                 </div>

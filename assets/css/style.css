@@ -3702,6 +3702,15 @@ textarea.form-control {
     display: flex !important;
 }
 
+.latest-article .as_blog_img .as_btn {
+    right: 32px;
+    bottom: -37px;
+    padding: 0px 10px;
+    height: auto;
+    min-width: auto;
+    font-size: 11px;
+}
+
 
 /* Responsive css */
 
